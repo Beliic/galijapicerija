@@ -123,13 +123,14 @@ body{
     
 }
 .glav{
-    width:60%;
+    width:70%;
     margin:auto;
    
 }
 .cont1{
     display:flex;
     font-size:1.5rem;
+    justify-content:start;
 }
 .pica1{
     max-width:500px;
@@ -142,14 +143,14 @@ body{
     font-weight:600;
     text-align:left;
     margin-top:100px;
-    margin-left:50px;
+    
 }
 
 .cont2{
     display:flex;
     font-size:1.5rem;
     margin-top:50px;
-    margin-left:200px;
+    justify-content:end;
    
 }
 .pica2{
@@ -168,7 +169,7 @@ body{
     display:flex;
     font-size:1.5rem;
     margin-top:50px;
-    margin-left:200px;
+    justify-content:end;
     
 }
 .pica3{
