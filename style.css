@@ -1,0 +1,234 @@
+/* scroll */
+::-webkit-scrollbar{
+    width:15px;
+   
+}
+::-webkit-scrollbar-track{
+    background: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb{
+    border-radius:5px;
+    background-color: rgb(180, 151, 108);
+    height:50px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color:rgb(184, 158, 125);
+ 
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    min-height:100vh;
+  
+}
+/* header */
+.head {
+    display: flex;
+    width: 100%;
+    background-color: rgb(205, 179, 139);
+    height: 8rem;
+    align-items: center;
+}
+
+.btn{
+    margin-left:200px;
+    font-size:1.2rem;
+}
+.home{
+    color:#000;
+    text-decoration:none;
+}
+.home:hover{
+    color:#fff;
+    text-decoration:underline;
+    transition:0.3s
+}
+.about{
+    color:#000;
+    text-decoration: none;
+    margin-left:50px;
+}
+.about:hover{
+    color:#fff;
+    text-decoration:underline;
+    transition: 0.3s;
+}
+.logo{
+    position:absolute;
+    margin-right:50px;
+    right:0;
+    width:70px;
+    height:70px;
+    
+  
+}
+
+/* banner */
+.cover{
+    position: relative;
+    width:100%;
+}
+.banner{
+    width:100%;
+    position: relative;
+    max-height:800px;
+    
+    
+}
+
+.tekst{
+    position:absolute;
+    top:0;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    max-height:500px;
+    max-width:700px;
+    margin-left:150px;
+    margin-top:200px;
+    
+    
+}
+.tekst h1{
+    margin-bottom:20px;
+    font-size:4rem;
+}
+.p1{
+    font-size:1.2rem;
+}
+.p2{
+    margin-top:10px;
+    margin-right:150px;
+}
+
+/* main content */
+.najp{
+    font-weight:bolder;
+    text-align:center;
+    font-size:1.8rem;
+    margin-top:300px;
+    margin-bottom:300px;
+}
+
+.container{
+    width:100%;
+    position: relative;
+    padding-bottom:250px;
+    
+}
+.glav{
+    width:60%;
+    margin:auto;
+   
+}
+.cont1{
+    display:flex;
+    font-size:1.5rem;
+}
+.pica1{
+    max-width:500px;
+    max-height:300px;
+}
+.tekst1{
+    max-width:500px;
+    height:300px;
+    font-size:1rem;
+    font-weight:600;
+    text-align:left;
+    margin-top:100px;
+    margin-left:50px;
+}
+
+.cont2{
+    display:flex;
+    font-size:1.5rem;
+    margin-top:50px;
+    margin-left:200px;
+   
+}
+.pica2{
+    max-width:500px;
+    max-height:300px;
+}
+.tekst2{
+    max-width:500px;
+    height:300px;
+    font-size:1rem;
+    font-weight:600;
+    text-align:left;
+    margin-top:100px;
+}
+.cont3{
+    display:flex;
+    font-size:1.5rem;
+    margin-top:50px;
+    margin-left:200px;
+    
+}
+.pica3{
+    max-width:500px;
+    max-height:300px;
+
+}
+.tekst3{
+    max-width:500px;
+    height:300px;
+    font-size:1rem;
+    font-weight:600;
+    text-align:left;
+    margin-top:100px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(42, 43, 42);
+    position:static;
+    bottom:0;
+    width:100%;
+    height:200px;
+}
+.fut{
+    padding-top:25px;
+    justify-content:center;
+    align-items:center;
+    display:grid;
+    text-align:center;
+}
+.fut h2 {
+    color:#fff;
+    font-weight:bolder;
+    font-size:1.5rem
+
+}
+.fut p{
+    color:#fff;
+    font-weight:500;
+    font-size:1rem;
+}
+.ikonice{
+    
+    margin-top:10px;
+}
+.fab{
+  margin:10px;
+}
+.insta{
+    color:#fff;
+    text-decoration:none;
+}
+.insta:hover{
+    color:rgba(255, 255, 255, 0.712);
+}
+.fb{
+    color:#fff;
+    text-decoration:none;
+}
+.fb:hover{
+    color:rgba(255, 255, 255, 0.712);
+}
