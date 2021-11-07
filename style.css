@@ -113,9 +113,10 @@ body{
 .najp{
     font-weight:bolder;
     text-align:center;
-    font-size:1.8rem;
+    font-size:2rem;
     margin-top:300px;
     margin-bottom:300px;
+    color:#27282c;
 }
 
 .container{
@@ -193,7 +194,7 @@ body{
 
 /* footer */
 footer{
-    background-color: rgb(42, 43, 42);
+    background-color:#27282c;
     position:static;
     bottom:0;
     width:100%;
